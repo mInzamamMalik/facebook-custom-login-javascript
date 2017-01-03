@@ -9,8 +9,8 @@ var app = express();
 app.use(cors());
 app.use(bodyparser.json({}));
 app.set('port', (process.env.PORT || 3000));
-app.set('APP_ID', "1286316678087115");
-app.set('APP_SECRET', "848300d200c6e5e3435a520ec2e0feef");
+app.set('APP_ID', "1235396263159488");
+app.set('APP_SECRET', "1d3c5cf264c611d8fdbb4a1053881e14");
 
 app.post("/verifyUserAccessToken", (req, res) => {
 
